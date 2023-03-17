@@ -1,0 +1,95 @@
+body{
+    background-image: url(img/NASAAAAAAA.jpg);
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+#menu img {
+    height: 60px;
+    margin-left: 30px;
+}
+#menu {
+    width: 100%;
+    height: 70px;
+    background-image: url(img/NASAAAAAAA.jpg);
+}
+.linkMenu { 
+    color: rgb(255, 255, 255); 
+    font-size: 1.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    float:right;
+    margin-top: 20px;
+}
+
+.banner0 img{
+   height: 600px;
+   width: 1500px;
+   margin-left: 210px;
+
+}
+
+.banner {
+    width: 90%;
+    height: 600px;
+    padding: 60px;
+    margin: 0 auto;
+    display: table;
+    color: rgb(255, 255, 255);
+}
+
+.banner img {
+    width: 40%;
+    height: 400px;
+    float:right;
+}
+
+.banner .texto {
+    margin-top: 50px;
+    width: 50%;
+    font-size: 22px;
+}
+
+.banner2{
+    color: white;
+    margin-top: 50px;
+    width: 50%;
+    font-size: 22px;
+    margin-left: 100px;
+}
+.banner2 img{
+    width: 400px;
+    height: 370px;
+    float: left;
+}
+
+@media screen and (max-width: 998px){
+    .banner {height: 480px; padding: 0px 20px;}
+    .banner .texto {font-size: 24px;}
+    .banner h1 {font-size: 28px;}
+    .banner p {font-size: 14px; margin-top: 90px;}
+    .banner img {width: 40%; height: 300px; margin-top: 90px;}
+    .banner a { padding: 3px 10px; background-color: rgb(24, 24, 24);
+        font-size: 12px; color: floralwhite; text-decoration: none;}
+    .banner0 img {width: 40%; height: 300px; margin-top: 90px;} 
+    .banner2 {height: 480px; padding: 0px 20px;}
+    .banner2 .texto {font-size: 24px;}
+    .banner2 h1 {font-size: 28px;}
+    .banner2 p {font-size: 14px; margin-top: 90px;}
+    .banner2 img {width: 40%; height: 300px; margin-top: 90px;}
+    }
+
+@media screen and (max-width: 768px){
+    .banner{padding: 0px 20px 20px}
+    .banner .texto{width: 100%; text-align: center; margin-top: 20px;}
+    .banner h1 {font-size: 18px;}
+    .banner p {font-size: 12px; margin-top: 20px;}
+    .banner img {width: 100%; height: 300px; margin-top: 20px; float: none;}
+    .banner0 img {width: 40%; height: 300px; margin-top: 90px;}
+    .banner2{padding: 0px 20px 20px}
+    .banner2 .texto{width: 100%; text-align: center; margin-top: 20px;}
+    .banner2 h1 {font-size: 18px;}
+    .banner2 p {font-size: 12px; margin-top: 20px;}
+    .banner2 img {width: 100%; height: 300px; margin-top: 20px; float: none;}
+}    
+
+

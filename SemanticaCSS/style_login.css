@@ -1,0 +1,31 @@
+body{
+    background: rgb(143,122,218);
+    background: radial-gradient(circle, rgba(143,122,218,1) 0%, rgba(235,68,244,1) 100%); 
+    color: black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 285px;
+}
+
+#menu img {
+    height: 75px;
+    width: 75px;
+    text-align: center;
+
+}
+ 
+a{
+    color: black;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.lemail{
+     background-image: url(img/ceu-azul-nuvens4.jpg);
+    color: rgb(0, 0, 0); ;
+    padding: 5px 8px;
+    border: 1px aqua;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+}

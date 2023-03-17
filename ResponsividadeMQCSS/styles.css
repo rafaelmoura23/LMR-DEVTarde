@@ -1,0 +1,44 @@
+body{
+    background-image:url(img/natu.jpg);
+}
+
+.banner {
+    width: 90%;
+    height: 600px;
+    padding: 60px;
+    margin: 0 auto;
+    display: table;
+    box-shadow: -1px -2px 5px 13px rgb(10, 69, 171);
+}
+
+.banner img {
+    width: 40%;
+    height: 500px;
+    float:right;
+}
+
+.banner .texto {
+    margin-top: 50px;
+    width: 50%;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 998px){
+    .banner {height: 480px; padding: 0px 20px;}
+    .banner .texto {font-size: 24px;}
+    .banner h1 {font-size: 28px;}
+    .banner p {font-size: 14px; margin-top: 90px;}
+    .banner img {width: 40%; height: 300px; margin-top: 90px;}
+    .banner a { padding: 3px 10px; background-color: rgb(24, 24, 24);
+        font-size: 12px; color: floralwhite; text-decoration: none;
+    }
+
+@media screen and (max-width: 768px){
+    .banner{padding: 0px 20px 20px}
+    .banner .texto{width: 100%; text-align: center; margin-top: 20px;}
+    .banner h1 {font-size: 18px;}
+    .banner p {font-size: 12px; margin-top: 20px;}
+    .banner img {width: 100%; height: 300px; margin-top: 20px; float: none;}
+}    
+    
+}
