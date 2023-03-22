@@ -1,6 +1,7 @@
 body{
     background-image: url(img/stadium.jpg);
     margin: 0;
+    font-family: cursive;
 }
 
 .nav{
@@ -40,6 +41,7 @@ body{
 
 .parte1 .shirt{
     float: left;
+    margin-top: 20px;
 }
 
 .text {
@@ -56,6 +58,8 @@ body{
     display: flex;
     justify-content: center;
 }
+
+
 
 
 
