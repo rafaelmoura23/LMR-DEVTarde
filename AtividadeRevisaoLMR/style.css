@@ -26,7 +26,7 @@ body{
 .nav .menu{
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around; /* adiciona espaço entre os linkMenus */
 }
 
 .nav .hamburguer{
@@ -37,27 +37,26 @@ body{
     background-color: red;
     width: 80%;
     margin-left: 10%;
-}
-
-.parte1 .shirt{
-    float: left;
-    margin-top: 20px;
-}
-
-.text {
-    float: right;
-    background-color: red;
     margin-top: 50px;
+    border-radius: 5px;
+    border-style:outset;
+    border-color: black;
+}
+
+.text{
+    float: right;
+}
+
+.text h1 {
+    display: flex;
+    justify-content: center;
 }
 
 .text p{
     font-size: 20px;
 }
 
-.text h1{
-    display: flex;
-    justify-content: center;
-}
+
 
 
 
