@@ -1,14 +1,15 @@
 body{
-    background-color: chocolate;
-    font-family: cursive;
+    background-color: rgb(159, 132, 113);
+    font-family: 'SoDo Sans',Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 0;
 }
 
 .nav{
-    background-color: rgb(35, 123, 199);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -18,7 +19,7 @@ body{
 
 .nav .linkMenu{
     text-decoration: none;   /* remove o traço do hiperlink*/
-    font-size: 24px;
+    font-size: 17px;
     color: black;
 }
 
@@ -26,4 +27,13 @@ body{
     width: 50%;
     display: flex;
     justify-content: space-around; /* adiciona espaço entre os linkMenus */
+}
+
+.menu1 img{
+    height: 80px;
+}
+
+.menu1 {
+    text-decoration: none;
+    float: right;
 }
