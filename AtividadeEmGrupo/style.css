@@ -1,8 +1,8 @@
 body{
-    background-color: rgb(206, 199, 133);
+    background-image: url(img/cafe1.jpg);
     font-family: sans-serif;
     margin: 0;
-    color: #32312d;
+    color: #2f2d29;
     letter-spacing: 0.15em;
 }
 
@@ -35,8 +35,13 @@ body{
     justify-content: space-around; /* adiciona espaço entre os linkMenus */
 }
 
-.menu1 img{
+.menu1 .american{
     height: 80px;
+}
+
+.menu1 .local{
+    width: 150px;
+    height: 50px;
 }
 
 .menu1 {
@@ -66,11 +71,6 @@ body{
 
 }
 
-.menu1 .local{
-    width: 150px;
-    height: 50px;
-}
-
 .botaoparticipe{
     background-color: black;
     color: white;
@@ -86,6 +86,15 @@ body{
 .botaoparticipe:hover{
     color: black;
     background-color: white;
+}
+
+.parte1 img{
+    height: 600px;
+    width: 1600px;
+    margin-left: 165px;
+    border: 2px;
+    border-style:inset;
+    border-color: black;
 }
 
 
