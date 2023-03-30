@@ -16,7 +16,7 @@ body{
 }
 
 .nav img{
-    height: 80px;
+    height: 90px;
 }
 
 .nav .linkMenu{
@@ -98,4 +98,80 @@ body{
 }
 
 
+
+.parte2{
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 50px;
+    color: white;
+    background-image: url(img/texto.jpg);
+    border: 2px;
+    border-style:inset;
+    border-color: black;
+    padding: 10px;
+
+}
+
+.parte2 img{
+    height: 450px;
+    width: 625px;
+    border: 1px;
+    border-style:inset;
+    border-color: black;
+}
+
+.parte2 .text{
+    float: right;
+}
+
+.parte2 .text h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.parte2 .text p{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.parte3{
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 50px;
+    color: white;
+    background-image: url(img/texto.jpg);
+    border: 2px;
+    border-style:inset;
+    border-color: black;
+    padding: 10px;
+
+}
+
+.parte3 img{
+    height: 450px;
+    width: 625px;
+    border: 1px;
+    border-style:inset;
+    border-color: black;
+}
+
+.parte3 .text{
+    float: left;
+}
+
+.parte3 .text h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.parte3 .text p{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
 
