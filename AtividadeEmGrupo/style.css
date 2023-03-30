@@ -1,13 +1,15 @@
 body{
-    background-color: rgb(159, 132, 113);
-    font-family: 'SoDo Sans',Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: rgb(206, 199, 133);
+    font-family: sans-serif;
     margin: 0;
+    color: #32312d;
+    letter-spacing: 0.15em;
 }
 
 .nav{
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -19,12 +21,16 @@ body{
 
 .nav .linkMenu{
     text-decoration: none;   /* remove o traço do hiperlink*/
-    font-size: 17px;
+    font-size: 20px;
     color: black;
 }
 
+.nav .linkMenu:hover{
+    color: green;
+}
+
 .nav .menu{
-    width: 50%;
+    width: 35%;
     display: flex;
     justify-content: space-around; /* adiciona espaço entre os linkMenus */
 }
@@ -35,7 +41,7 @@ body{
 
 .menu1 {
     text-decoration: none;
-    margin-left: 250px;
+    margin-left: 500px;
     width: 30%;
     display: flex;
     align-items: center;
@@ -45,10 +51,13 @@ body{
 .botao {
     color: rgb(0, 0, 0); ;
     padding: 5px 8px;
-    border: 1px aqua;
-    border-radius: 4px;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    font-family: sans-serif;
+
 }
 
 .botao:hover{
@@ -62,6 +71,22 @@ body{
     height: 50px;
 }
 
-.botao1{
+.botaoparticipe{
+    background-color: black;
+    color: white;
+    padding: 5px 8px;
+    cursor: pointer;
+    font-size: 17px;
     border: none;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-size: 20px;
 }
+
+.botaoparticipe:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
