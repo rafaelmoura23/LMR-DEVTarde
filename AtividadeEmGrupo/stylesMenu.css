@@ -1,3 +1,9 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+
+
 .nav{
     background-color: rgb(255, 255, 255);
     width: 100%;
@@ -80,3 +86,60 @@
     background-color: white;
 }
 
+.parte1{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.parte1 .text{
+    float: right;
+    color: white;
+}
+
+.parte1 .text h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.parte1 .text p{
+    font-size: 20px;
+}
+
+.parte1 img{
+    border-radius: 5px;
+    width: 440px;
+    height: 640px;
+    border: 2px;
+    border-style:groove;
+    border-color: green;
+}
+
+
+.parte2 img{
+    width: 520px;
+    height: 550px;
+    margin-left: 37%;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.parte2 h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
