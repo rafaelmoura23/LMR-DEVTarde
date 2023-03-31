@@ -90,6 +90,8 @@ body{
     width: 80%;
     margin-left: 10%;
     margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .parte1 .text{
@@ -100,10 +102,11 @@ body{
 .parte1 .text h1 {
     display: flex;
     justify-content: center;
+    font-size: 60px;
 }
 
 .parte1 .text p{
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .parte1 img{
@@ -112,13 +115,95 @@ body{
     height: 640px;
     border: 2px;
     border-style:groove;
-    border-color: green;
+    border-color: rgb(154, 145, 22);
+}
+
+.saibaMais{
+    background-color: white;
+    color: black;
+    padding: 5px 8px;
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 310px;
+}
+
+.saibaMais:hover{
+    color: white;
+    background-color: black;
 }
 
 
+
+
+.parte2{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.parte2 .text1{
+    color: white;
+}
+
+.parte2 .text1 h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.parte2 .text1 p{
+    font-size: 40px;
+}
+
 .parte2 img{
-    width: 520px;
-    height: 550px;
+    border-radius: 5px;
+    width: 440px;
+    height: 440px;
+    border: 2px;
+    border-style:groove;
+    border-color: rgb(154, 145, 22);
+}
+
+.saibaMais{
+    background-color: white;
+    color: black;
+    padding: 5px 8px;
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 310px;
+}
+
+.saibaMais:hover{
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.parte4 img{
+    width: 475px;
+    height: 463px;
     margin-left: 37%;
     transform: translateY(0px);
     animation: float 5s ease-in-out infinite;
@@ -136,10 +221,35 @@ body{
     }
 }
 
-.parte2 h1{
+.parte4 h1{
     color: white;
     display: flex;
     justify-content: center;
     transform: translateY(0px);
     animation: float 5s ease-in-out infinite;
+}
+
+
+.rodape .icones{
+    background-color: white;
+    margin-left: 20px;
+}
+
+.rodape{
+    background-color: white;
+}
+
+.linkRodape{
+    text-decoration: none;   /* remove o traço do hiperlink*/
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    width: 100%;
+    margin-left: 20px;
+}
+.copi{
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    background-color: white;
 }
