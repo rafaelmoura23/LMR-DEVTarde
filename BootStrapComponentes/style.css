@@ -1,4 +1,16 @@
+body{
+    background-color: black;
+
+}
+
 .carousel-inner img{
     width: 100%;
     height:70vh;
 }
+
+.card img{
+    height:15vh;
+    padding-top: 8px;
+    border-radius: 10px;
+}
+
