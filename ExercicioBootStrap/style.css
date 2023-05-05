@@ -3,8 +3,11 @@ background-image: url(img/back.jpg);
 color: white;
 }
 .carousel-inner img{
-    width: 100%;
-    height:60vh;
+    width: 500px;
+    height:600px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: dotted;
 }
 .card img{
     height:15vh;
