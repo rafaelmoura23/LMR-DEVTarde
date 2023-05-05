@@ -7,14 +7,15 @@ color: white;
     height:600px;
     border-radius: 10px;
     border-color: white;
-    border-style: dotted;
-}
-.card img{
-    height:15vh;
-    padding-top: 8px;
-    border-radius: 10px;
+    border-style: double;
+    color: white;
+    display: flex;
+    align-items:  center;
 }
 
-.footer{
-    color: white;
+.card img{
+    height:30vh;
+    width: 30vh;
+    padding: 8px;
+    border-radius: 10px;
 }
