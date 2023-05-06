@@ -56,55 +56,45 @@
 
     <section>
         <div class="container">
-            <div class="row">
-                <div class="col-8"></div>
-                <form class="was-validated">
-                    <div class="mb-3">
-                      <label for="validationTextarea" class="form-label">Textarea</label>
-                      <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
-                      <div class="invalid-feedback">
-                        Please enter a message in the textarea.
-                      </div>
-                    </div>
-                  
-                    <div class="form-check mb-3">
-                      <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
-                      <label class="form-check-label" for="validationFormCheck1">Check this checkbox</label>
-                      <div class="invalid-feedback">Example invalid feedback text</div>
-                    </div>
-                  
-                    <div class="form-check">
-                      <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
-                      <label class="form-check-label" for="validationFormCheck2">Toggle this radio</label>
-                    </div>
-                    <div class="form-check mb-3">
-                      <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
-                      <label class="form-check-label" for="validationFormCheck3">Or toggle this other radio</label>
-                      <div class="invalid-feedback">More example invalid feedback text</div>
-                    </div>
-                  
-                    <div class="mb-3">
-                      <select class="form-select" required aria-label="select example">
-                        <option value="">Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                      </select>
-                      <div class="invalid-feedback">Example invalid select feedback</div>
-                    </div>
-                  
-                    <div class="mb-3">
-                      <input type="file" class="form-control" aria-label="file example" required>
-                      <div class="invalid-feedback">Example invalid form file feedback</div>
-                    </div>
-                  
-                    <div class="mb-3">
-                      <button class="btn btn-primary" type="submit" disabled>Submit form</button>
-                    </div>
+            <div class="row justify-content-center">
+                <div class="col-5">
+                  <h1>FORMULÁRIO DE CONTATO</h1>
+
+                  <form class="form-floating mt-4">
+                    <input type="email" class="form-control" id="floatingInputValue" placeholder="name@gmail.com" value="test@gmail.com">
+                    <label for="floatingInputValue">Email</label>
                   </form>
+
+                  <form class="form-floating mt-4">
+                    <input type="email" class="form-control" id="floatingInputValue" placeholder="name@gmail.com" value="test@gmail.com">
+                    <label for="floatingInputValue">Email do Remetente</label>
+                  </form>
+
+                  <div class="form-floating mt-4">
+                    <select class="form-select" id="floatingSelect" aria-label="Determina a Urgência">
+                      <option selected>1</option>
+                      <option value="1">2</option>
+                      <option value="2">3</option>
+                      <option value="3">Urgente</option>
+                    </select>
+                    <label for="floatingSelect">Selecione a Urgência</label>
+                  </div>
+
+                  <div class="form-floating mt-4">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Comentários</label>
+                  </div>
+
+                  <div class="col-12 mt-4">
+                    <button class="btn btn-outline-primary --bs-primary-border-subtle" type="submit">Enviar</button>
+                  </div>
+
+                </div>
             </div>
         </div>
     </section>
+
+    
     
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
