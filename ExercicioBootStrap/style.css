@@ -19,3 +19,49 @@ color: white;
     padding: 8px;
     border-radius: 10px;
 }
+
+.card{
+    background-color: rgb(0, 0, 81);
+    color: white;
+    border-style:groove;
+    border-color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#emailHelp{
+    color: rgb(0, 0, 0);
+}
+
+.col-5{
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 50%;
+}
+
+.col-5 {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+
+
+.col-6 {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    color: black;
+}
+
