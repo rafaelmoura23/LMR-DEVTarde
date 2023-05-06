@@ -18,14 +18,46 @@ color: white;
     width: 30vh;
     padding: 8px;
     border-radius: 10px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
 }
 
 .card{
-    background-color: rgb(0, 0, 81);
+    background-image: url(img/roxo.jpg);
     color: white;
     border-style:groove;
-    border-color: white;
+    border-color: black;
+    display: flex;
+    justify-content: center;
 }
+
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1{
     display: flex;
