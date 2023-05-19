@@ -4,11 +4,13 @@ function evento(){
     let numeroParticipantes = document.getElementById("pParticipantes").value;
     let data = document.getElementById("date").value;
 
-    if(nomePalestrante==0 && nomeEvento==0){
+    if(nomePalestrante==0){
         alert("Digite o nome do Palestrante")
-    } else{
-        alert("OK")
+    }else if (nomeEvento==0){
+        alert("Digite o nome do Evento")
+    }else if(numeroParticipantes<=0){
+        alert("Digite o Número de Participantes")
+    } else if(numeroParticipantes>100){
+        alert("Excedido o número máximo de Participantes(100)")
     }
-    }
-
-
+}
