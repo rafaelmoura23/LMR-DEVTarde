@@ -9,8 +9,27 @@
 <body>
     <h2>Descubra se o Número é PAR ou ÍMPAR</h2>
     <label for="nDigitado">Digite o Número aqui:</label>
-    <input type="text" id="nDigitado">
+    <input type="number" id="nDigitado">
     <input type="button" value="Verificar" onclick="nParImpar()">
+    <br><hr><br>
+
+    <form action="">
+    <label for="nValor1">Digite o 1º Número: </label>
+    <input type="number" id="nValor1">
+    <br>
+    <select name="" id="pOperacao">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <br>
+    <label for="nValor2">Digite o 2º Número: </label>
+    <input type="number" id="nValor2">
+    <br>
+    <input type="submit" onclick="operacao()">
+    <hr>
+    </form>
 </body>
 <script src="script.js"></script>
 </html>
