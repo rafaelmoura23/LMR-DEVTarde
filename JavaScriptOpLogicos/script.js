@@ -7,12 +7,15 @@ function nParImpar() {
         alert("O Número " + numero + " é Impar")
 }
 
-let valor1 = parseInt (document.getElementById("nValor1").value);
-let valor2 = parseInt (document.getElementById("nValor2").value);
-let operacao = document.getElementById("pOperacao");
-let resultado;
+
+
+
 
 function calculadora(){
+    let valor1 = parseInt(document.getElementById("nValor1").value);
+    let valor2 = parseInt(document.getElementById("nValor2").value);
+    let operacao = document.getElementById("pOperacao").value;
+    let resultado;
     switch (operacao){
         case "+":
             resultado = valor1 + valor2;
@@ -32,6 +35,8 @@ function calculadora(){
             break;
         default:
             alert("Selecione números válidos")
-            break;    
+            break; 
+             
     }
+    alert(resultado)
 }
