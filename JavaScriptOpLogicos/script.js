@@ -2,7 +2,7 @@ function nParImpar(){
     let numero = document.getElementById("nDigitado").value;
 
     if(parseInt (numero) % 2 == 0){
-        alert("O número é Par")
+        alert("O Número " +numero+ " é Par")
     } else 
-        alert("O Número é Impar")
+        alert("O Número " +numero+ " é Impar")
 }
