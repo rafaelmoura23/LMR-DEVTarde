@@ -20,8 +20,20 @@ h2{
     border-radius: 20px;
     padding: 20px;
     opacity: 80%;
+    border-color: black;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
 
 h3{
     float: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.tesla{
+    width: 750px;
+    height: 800px;
 }
