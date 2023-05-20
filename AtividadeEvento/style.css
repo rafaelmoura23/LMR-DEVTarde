@@ -1,9 +1,10 @@
 body{
-    background-color: aqua;
+    background-image: url(img/nasaWow.png);
+    font-family: cursive;
 
 }
 
-h1{
+h2{
     display: flex;
     justify-content: center;
 }
@@ -13,11 +14,12 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 450px;
     height: 450px;
     background:white;
     border-radius: 20px;
     padding: 20px;
+    opacity: 80%;
 }
 
 h3{

@@ -12,29 +12,44 @@
 <body>
 
     <div class="box">
-    <h3>EVENTO</h3>
+    <h2>EVENTO</h2>
+
     <form action="" id="meuForm">
-        <label for="pNome">Nome do Palestrante</label>
-        <input type="text" id="pNome" placeholder="">
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nome do Palestrante</label>
+            <input type="text" class="form-control" id="pNome" placeholder="">
+          </div>
+        
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nome do Evento</label>
+            <input type="text" class="form-control" id="pEvento" placeholder="">
+          </div>
+        
+          <div class="mb-3">
+            <label for="" class="form-label">Número de Participantes</label>
+            <input type="number" class="form-control" id="pParticipantes" placeholder="">
+          </div>
+        
+        
+        <label for="pData">Data do Evento</label>
+        <select name="" id="pdata" class="form-control">
+            <option value="">27/05/2023</option>
+            <option value="">30/05/2023</option>
+            <option value="">03/06/2023</option>
+            <option value="">10/06/2023</option>
+        </select>
         <br>
-        <label for="pEvento">Nome do Evento</label>
-        <input type="text" id="pEvento" placeholder="">
-        <br>
-        <label for="pEvento">Nª de Participantes</label>
-        <input type="number" id="pParticipantes" placeholder="">
-        <br>
-        <div class="col-md-4 position-relative">
-        <label for="pEvento">Dia do Evento</label>
-        <input type="number" id="pDia" placeholder="">
-        <label for="pEvento">Mês do Evento</label>
-        <input type="number" id="pMes" placeholder="">
-        </div>
-        <br>
-        <input type="button" value="Inscreva-se" onclick="evento()">
+
+        <input type="button" class="btn btn-outline-info" value="Inscreva-se" onclick="evento()">
+        
+
+        
     </form>
 </div>
+
 
 
 </body>
 <script src="script.js"></script>
 </html>
+
