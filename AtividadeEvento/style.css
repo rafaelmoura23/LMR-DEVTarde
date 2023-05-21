@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&family=Inter:wght@700&family=Noto+Sans:ital,wght@1,800&display=swap');
+
 body{
     background-image: url(img/nasaWow.png);
-    font-family:cursive;
+    font-family:'Fira Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     color: white;
     font-size: 20px;
 }
@@ -11,7 +15,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 450px;
-    height: 535px;
+    height: 545px;
     background:rgb(42, 42, 42);
     border-radius: 20px;
     padding: 20px;
@@ -40,7 +44,19 @@ body{
     opacity: 80%;
 }
 
+.btn{
+        background-image: linear-gradient(rgb(132, 0, 255), rgb(0, 26, 255));
+        color: white;
+        border-color: black;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0);
+        font-size: 20px;
+        margin-left: 115px;
+}
 
+.btn :hover{
+    background-image: linear-gradient(rgb(0, 26, 255) ,rgb(132, 0, 255));
+    border-color: black;
+}
 
 
 
