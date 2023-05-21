@@ -40,17 +40,10 @@ body{
     opacity: 80%;
 }
 
-.selos{
-    display: flex;
-    justify-content: flex-end;
-    align-items: end;
+
+.btn-btn-outline-info{
+    background-color: blueviolet;
 }
-
-html{
-    --background: white;
-    --text: black;
-  }
-
 
 
 
