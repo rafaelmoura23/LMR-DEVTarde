@@ -15,7 +15,7 @@ body{
     background:rgb(42, 42, 42);
     border-radius: 20px;
     padding: 20px;
-    opacity: 80%;
+    opacity: 87%;
     border-color: rgb(255, 255, 255);
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
@@ -37,7 +37,28 @@ body{
     margin-right: 100px;
     transform: translateY(0px);
     animation: float 5s ease-in-out infinite;
+    opacity: 80%;
 }
+
+.selos{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+html{
+    --background: white;
+    --text: black;
+  }
+
+
+
+
+
+
+
+
+
 
 @keyframes float {
     0%{
