@@ -55,14 +55,8 @@ body{
 
 .btn :hover{
     background-image: linear-gradient(rgb(0, 26, 255) ,rgb(132, 0, 255));
-    border-color: black;
+    border-color: rgb(255, 255, 255);
 }
-
-
-
-
-
-
 
 @keyframes float {
     0%{
