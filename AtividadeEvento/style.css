@@ -45,7 +45,7 @@ body{
 }
 
 .btn{
-        background-image: linear-gradient(rgb(132, 0, 255), rgb(0, 26, 255));
+        background-image: linear-gradient(rgb(0, 26, 255),rgb(132, 0, 255));
         color: white;
         border-color: black;
         box-shadow: 10px 10px 10px rgb(0, 0, 0);
