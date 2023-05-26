@@ -1,6 +1,6 @@
 body{
     background-image: url(img/nasa.jpg);
-    font-family: cursive;
+    font-family:'Courier New', Courier, monospace;
 
 }
 
@@ -15,6 +15,7 @@ body{
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
     display: flex;
     align-items:  center;
+    color: white;
 }
 
 .carousel-inner img{
