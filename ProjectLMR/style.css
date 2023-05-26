@@ -1,26 +1,39 @@
 body{
     background-image: url(img/nasa.jpg);
+    font-family: cursive;
 }
 
+navbar navbar-expand-lg bg-dark{
+    font-size: 20px;
 
+}
 
-
-
+.carousel-inner img{
+    width: 500px;
+    height:600px;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    display: flex;
+    align-items:  center;
+}
 
 .card img{
-    height:30vh;
-    width: 30vh;
-    padding: 8px;
-    border-radius: 10px;
-    transform: translateY(0px);
-    animation: float 5s ease-in-out infinite;
-    margin-left: -7px;
+    padding: 4px;
+    border-radius: 60px;
+    height: 150px;
+    width: 150px;
+
 }
 
 .card{
-    background-image: url(img/roxo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+h1{
     color: white;
-    border-style:groove;
-    border-color: black;
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
