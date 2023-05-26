@@ -1,21 +1,29 @@
 body{
     background-image: url(img/nasa.jpg);
     font-family: cursive;
+
 }
 
-navbar navbar-expand-lg bg-dark{
+.navbar {
     font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
 
+.carousel-inner{
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
 
 .carousel-inner img{
-    width: 500px;
-    height:600px;
+    width: 400px;
+    height:500px;
     border-radius: 10px;
     border-color: white;
     color: white;
     display: flex;
     align-items:  center;
+
 }
 
 .card img{
@@ -34,6 +42,6 @@ navbar navbar-expand-lg bg-dark{
     border-color: transparent;
 }
 
-h1{
+h3{
     color: white;
 }
