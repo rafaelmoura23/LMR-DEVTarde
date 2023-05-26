@@ -7,10 +7,11 @@ body{
 .navbar {
     font-size: 20px;
     display: flex;
-    justify-content: space-around;
     color: white;
-    
-}
+    display: flex;
+    }
+
+
 
 .navbar img{
     width: 75px;
@@ -52,6 +53,7 @@ body{
     align-items: center;
     background-color: transparent;
     border-color: transparent;
+    overflow: hidden;
 }
 
 h3{
