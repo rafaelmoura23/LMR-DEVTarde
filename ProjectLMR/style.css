@@ -2,7 +2,19 @@ body{
     background-image: url(img/nasa.jpg);
     font-family:'Courier New', Courier, monospace;
     color: white;
-    margin: none;
+}
+
+header {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(34, 33, 33);
+    }
+
+
+
+.navbar img{
+    width: 75px;
+    height: 75px;
 }
 
 .carouselExampleDark{
