@@ -1,13 +1,12 @@
 body{
-    background-image: url(img/nasa.jpg);
+    background-color: white;
     font-family:'Courier New', Courier, monospace;
-    color: white;
+    color: black;
 }
 
 header {
     font-size: 20px;
     color: white;
-    background-color: rgb(34, 33, 33);
     }
 
 
