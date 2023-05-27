@@ -8,16 +8,6 @@ body {
     color: black;
 }
 
-header {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-}
-
-.navbar img {
-    width: 75px;
-    height: 75px;
-}
-
 .carouselExampleDark {
     color: white;
 }
