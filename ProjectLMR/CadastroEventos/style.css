@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&family=Inter:wght@700&family=Noto+Sans:ital,wght@1,800&display=swap');
+
+body{
+    background-image: url(img/background_image.png);
+    font-family:'Fira Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 545px;
+    background:rgb(42, 42, 42);
+    border-radius: 20px;
+    padding: 20px;
+    opacity: 87%;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+.box h2{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.box hr{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.program{
+    float: right;
+    margin-right: 100px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+    opacity: 80%;
+}
+
+.btn{
+        background-image: linear-gradient(rgb(0, 26, 255),rgb(132, 0, 255));
+        color: white;
+        border-color: black;
+        box-shadow: 10px 10px 10px rgb(0, 0, 0);
+        font-size: 20px;
+        margin-left: 115px;
+}
+
+.btn :hover{
+    background-image: linear-gradient(rgb(0, 26, 255) ,rgb(132, 0, 255));
+    border-color: rgb(255, 255, 255);
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}

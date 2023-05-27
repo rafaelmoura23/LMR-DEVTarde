@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&family=Inter:wght@700&family=Noto+Sans:ital,wght@1,800&display=swap');
-body{
+
+body {
     background-color: white;
-    font-family:'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-family: 'Inter', sans-serif;
     font-family: 'Noto Sans', sans-serif;
     color: black;
@@ -10,43 +11,35 @@ body{
 header {
     font-size: 20px;
     color: rgb(0, 0, 0);
-    }
+}
 
-.navbar img{
+.navbar img {
     width: 75px;
     height: 75px;
 }
 
-.carouselExampleDark{
-    color:white;
-}
-
-.carousel-inner{
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
-    display: flex;
-    align-items:  center;
+.carouselExampleDark {
     color: white;
 }
 
-.carousel-inner img{
+.carousel-inner {
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.carousel-inner img {
     width: 400px;
-    height:555px;
+    height: 555px;
     border-radius: 10px;
     border-color: white;
     color: white;
     display: flex;
-    align-items:  center;
+    align-items: center;
 }
 
-.card img{
-    padding: 4px;
-    border-radius: 60px;
-    height: 150px;
-    width: 150px;
-
-}
-
-.card{
+.card {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,14 +48,21 @@ header {
     overflow: hidden;
 }
 
-h3{
+.card img {
+    padding: 4px;
+    border-radius: 60px;
+    height: 150px;
+    width: 150px;
+}
+
+h3 {
     color: rgb(0, 0, 0);
 }
 
-footer{
+footer {
     text-decoration: none;
 }
 
-.modal-body{
+.modal-body {
     background-color: aqua;
 }
