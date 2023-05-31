@@ -14,10 +14,11 @@ body {
 }
 
 .navbar{
-    font-size: 17px;
+    font-size: 15px;
     color: white;
     letter-spacing: 1.2px;
     border-radius: 1px;
+    margin-top: 10px;
 }
 
 
@@ -67,9 +68,12 @@ body {
 
 .cidadesImagens{
     padding: 2px;
-    border-radius: 5px;
+    border-radius: 7px;
     height: 300px;
     width: 200px;
+    border-color: white;
+    border: 3px;
+    border-style: solid;
 }
 
 h3 {
@@ -79,6 +83,7 @@ h3 {
 .card-header{
     color: rgb(255, 255, 255);
 }
+
 
 footer {
     text-decoration: none;
