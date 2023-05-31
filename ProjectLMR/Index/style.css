@@ -17,10 +17,18 @@ body {
     font-size: 17px;
     color: white;
     letter-spacing: 1.2px;
+    border-radius: 1px;
+}
+
+
+.botao{
+    background-color:rgb(20, 19, 19);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
 }
 
 .carousel-inner {
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px rgb(15, 15, 15);
     display: flex;
     align-items: center;
     color: white;
@@ -56,12 +64,10 @@ h3 {
     color: rgb(0, 0, 0);
 }
 
-footer {
-    text-decoration: none;
+.card-header{
+    color: black;
 }
 
-.form-control{
-    border-color:  white;
-    border: 2px;
-
+footer {
+    text-decoration: none;
 }
