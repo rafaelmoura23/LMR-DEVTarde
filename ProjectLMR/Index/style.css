@@ -54,10 +54,22 @@ body {
 }
 
 .eventosImagens {
-    padding: 4px;
     border-radius: 60px;
     height: 150px;
     width: 150px;
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+}
+
+.cidadesImagens{
+    padding: 2px;
+    border-radius: 5px;
+    height: 300px;
+    width: 200px;
 }
 
 h3 {
