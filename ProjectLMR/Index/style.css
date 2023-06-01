@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&family=Inter:wght@700&family=Noto+Sans:ital,wght@1,800&display=swap');
 
 body {
-    background-image: url(img/buraco-negro.jpg);
+    background-image: url(img/Untitled\ \(1\).png);
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Inter', sans-serif;
     font-family: 'Noto Sans', sans-serif;
@@ -21,6 +21,9 @@ body {
     margin-top: 10px;
 }
 
+.parte1{
+    background-image: url(img/buraco-negro.jpg);
+}
 
 .botao{
     background-color:rgb(20, 19, 19);
@@ -59,6 +62,11 @@ body {
     height: 150px;
     width: 150px;
 }
+
+.parte2{
+    background-image: url(img/nasaFundo.jpg);
+}
+
 
 .card-header{
     display: flex;
