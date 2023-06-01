@@ -5,7 +5,6 @@ body {
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Inter', sans-serif;
     font-family: 'Noto Sans', sans-serif;
-    color: black;
 }
 
 .carouselExampleDark {
@@ -13,23 +12,52 @@ body {
     background-color: white;
 }
 
-.navbar{
-    font-size: 15px;
+.nav a{
     color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0;
+    font-size: 15px;
     letter-spacing: 1.2px;
-    border-radius: 1px;
-    margin-top: 10px;
+    position: relative;
 }
 
-.parte1{
-    background-image: url(img/buraco-negro.jpg);
+.nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
-.botao{
-    background-color:rgb(20, 19, 19);
-    color: rgb(255, 255, 255);
-    border-radius: 15px;
+.nav a:hover::after{
+    width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .carousel-inner {
     box-shadow: 10px 10px 10px rgb(15, 15, 15);
@@ -62,11 +90,6 @@ body {
     height: 150px;
     width: 150px;
 }
-
-.parte2{
-    background-image: url(img/nasaFundo.jpg);
-}
-
 
 .card-header{
     display: flex;
