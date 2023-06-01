@@ -45,16 +45,14 @@ font-family: 'Share Tech Mono', monospace;
     color: white;
     width: 1400px;
     height: 700px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .carousel-inner img {
     width: 1400px;
     height: 700px;
-    border-color: white;
-    color: white;
-    display: flex;
-    align-items: center;
+    border: 2px;
+    border-radius: 20px;
 }
 
 .card {
@@ -79,13 +77,13 @@ font-family: 'Share Tech Mono', monospace;
 }
 
 .cidadesImagens{
-    padding: 2px;
-    border-radius: 7px;
+    border-radius: 10px;
     height: 300px;
     width: 200px;
-    border-color: white;
+    border-color: rgb(242, 242, 242);
     border: 3px;
     border-style: solid;
+    box-shadow: 10px 10px 10px rgb(15, 15, 15);
 }
 
 h3 {
