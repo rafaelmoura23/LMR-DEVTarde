@@ -36,8 +36,8 @@ body {
 }
 
 .carousel-inner img {
-    width: 400px;
-    height: 555px;
+    width: 350px;
+    height: 500px;
     border-radius: 10px;
     border-color: white;
     color: white;
@@ -92,3 +92,4 @@ footer {
 hr{
     color: white;
 }
+
