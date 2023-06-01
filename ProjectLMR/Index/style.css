@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&family=Inter:wght@700&family=Noto+Sans:ital,wght@1,800&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
 
 body {
     background-image: url(img/back1.png);
-    font-family: 'Fira Sans', sans-serif;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Abel', sans-serif;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Share Tech Mono', monospace;
+    
 }
 
 .carouselExampleDark {
@@ -16,7 +18,7 @@ body {
     color: white;
     text-decoration: none;
     padding: 0px 50px 10px 0;
-    font-size: 15px;
+    font-size: 25px;
     letter-spacing: 1.2px;
     position: relative;
 }
@@ -35,55 +37,6 @@ body {
 .nav a:hover::after{
     width: 100%;
 }
-
-p{
-    color: white;
-    text-decoration: none;
-    padding: 0px 50px 10px 0;
-    font-size: 15px;
-    letter-spacing: 1.2px;
-    position: relative;
-    margin-top: 5px;
-}
-
-p::after{
-    content: " ";
-    width: 0%;
-    height: 4px;
-    background-color: white;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: 0.5s ease-in-out;
-}
-
-p:hover::after{
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .carousel-inner {
     box-shadow: 10px 10px 10px rgb(15, 15, 15);
@@ -150,3 +103,6 @@ hr{
     color: white;
 }
 
+p{
+    font-size: 19px;
+}
