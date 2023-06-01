@@ -51,8 +51,13 @@ body {
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: NONE;
     align-items:center;
+}
+
+.titleBox h1{
+    font-size: 65px;
+    float: center;
 }
 
 
