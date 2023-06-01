@@ -1,11 +1,10 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
 
 body {
     background-image: url(img/back1.png);
     font-family: 'Abel', sans-serif;
-font-family: 'Bebas Neue', sans-serif;
-font-family: 'Share Tech Mono', monospace;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
     
 }
 
@@ -37,6 +36,25 @@ font-family: 'Share Tech Mono', monospace;
 .nav a:hover::after{
     width: 100%;
 }
+
+.titleBox{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1500px;
+    height: 545px;
+    background:rgb(0, 0, 0);
+    border-radius: 40px;
+    padding: 10px;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
 
 .carousel-inner {
     box-shadow: 10px 10px 10px rgb(15, 15, 15);
