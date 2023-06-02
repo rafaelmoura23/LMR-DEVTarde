@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&family=Inter:wght@700&family=Noto+Sans:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
 
 body{
     background-image: url(img/background_image.png);
-    font-family:'Fira Sans', sans-serif;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
     color: white;
     font-size: 20px;
 }
@@ -29,7 +29,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 450px;
-    height: 545px;
+    height: 570px;
     background:rgb(42, 42, 42);
     border-radius: 20px;
     padding: 20px;
@@ -59,18 +59,35 @@ body{
 }
 
 .btn{
-        background-image: linear-gradient(rgb(0, 26, 255),rgb(132, 0, 255));
-        color: white;
-        border-color: black;
-        box-shadow: 10px 10px 10px rgb(0, 0, 0);
-        font-size: 20px;
-        margin-left: 115px;
+    padding: 10px;
+    width: 180px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    background-color:white;
+    font-size: 22px;
+    border: none;
+    float: center;
+    margin-left: 120px;
 }
 
-.btn :hover{
-    background-image: linear-gradient(rgb(0, 26, 255) ,rgb(132, 0, 255));
-    border-color: rgb(255, 255, 255);
+.btn:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    transition: 0.2s ease-in-out;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
 }
+
+#btnKnow:hover::after{
+    width: 100%;
+}
+
+
+
+
 
 @keyframes float {
     0%{

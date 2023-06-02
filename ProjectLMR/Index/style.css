@@ -137,32 +137,18 @@ body {
     overflow: hidden;
 }
 
-.btn-close{
-    color: red;
-}
-
 .eventosImagens {
     border-radius: 80px;
     height: 150px;
     width: 150px;
-    background-position: center;
-    background-size: cover;
-    transition:filter, transform 0.2s;
 }
 
-.card:hover .eventosImagens1{
-    transform: scaleX(1.1);
-    background-color: aliceblue;
-
-}
 
 .cidadesImagens{
     border-radius: 10px;
     height: 300px;
     width: 200px;
-    border-color: rgb(242, 242, 242);
     border: 3px;
-    border-style: solid;
 }
 
 h3 {
