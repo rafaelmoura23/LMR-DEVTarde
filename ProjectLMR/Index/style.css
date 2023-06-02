@@ -57,7 +57,34 @@ body {
 
 .titleBox h1{
     font-size: 65px;
-    float: center;
+    text-align: center;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+.titleBox img{
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+.btn{
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+    padding: 10px;
+    width: 150px;
+    margin-left: 140px;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
 
 
