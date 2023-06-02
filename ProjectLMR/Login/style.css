@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
 
 body{
-    background-color: black;
+    background-image: url(img/buraco-negro.jpg);
     font-family: 'Abel', sans-serif;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Share Tech Mono', monospace;
