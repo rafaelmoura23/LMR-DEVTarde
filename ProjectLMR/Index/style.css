@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
 
 body {
@@ -136,10 +137,67 @@ body {
     overflow: hidden;
 }
 
-.eventosImagens {
-    border-radius: 60px;
+.eventosImagens1 {
+    border-radius: 80px;
     height: 150px;
     width: 150px;
+    background-position: center;
+    background-size: cover;
+    transition:filter, transform 0.2s;
+}
+.eventosImagens2 {
+    border-radius: 80px;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    transition:filter, transform 0.2s;
+}
+.eventosImagens3 {
+    border-radius: 80px;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    transition:filter, transform 0.2s;
+}
+.eventosImagens4 {
+    border-radius: 80px;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    transition:filter, transform 0.2s;
+}
+.eventosImagens5 {
+    border-radius: 80px;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    transition:filter, transform 0.2s;
+}
+.eventosImagens6 {
+    border-radius: 80px;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    transition:filter, transform 0.2s;
+}
+.eventosImagens7 {
+    border-radius: 80px;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    transition:filter, transform 0.2s;
+}
+
+.card:hover .eventosImagens1{
+    transform: scaleX(1.1);
+    background-color: aliceblue;
+
 }
 
 .cidadesImagens{
@@ -170,6 +228,7 @@ h3 {
 
 footer {
     text-decoration: none;
+    font-size: 18px;
 }
 
 hr{
@@ -179,3 +238,4 @@ hr{
 p{
     font-size: 19px;
 }
+
