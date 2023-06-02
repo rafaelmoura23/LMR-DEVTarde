@@ -462,9 +462,6 @@ select:disabled {
     display: none!important
 }
 
-[type=button],[type=reset],[type=submit],button {
-    -webkit-appearance: button
-}
 
 [type=button]:not(:disabled),[type=reset]:not(:disabled),[type=submit]:not(:disabled),button:not(:disabled) {
     cursor: pointer
@@ -513,11 +510,6 @@ legend+* {
     height: auto
 }
 
-[type=search] {
-    outline-offset: -2px;
-    -webkit-appearance: textfield
-}
-
 ::-webkit-search-decoration {
     -webkit-appearance: none
 }
@@ -527,11 +519,6 @@ legend+* {
 }
 
 ::-webkit-file-upload-button {
-    font: inherit;
-    -webkit-appearance: button
-}
-
-::file-selector-button {
     font: inherit;
     -webkit-appearance: button
 }
@@ -2567,7 +2554,6 @@ textarea.form-control-lg {
     -moz-appearance: none;
     appearance: none;
     -webkit-print-color-adjust: exact;
-    color-adjust: exact;
     print-color-adjust: exact
 }
 

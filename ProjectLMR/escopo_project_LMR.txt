@@ -11,3 +11,6 @@ Página de Apresentação de cada evento
 tela de perfil do usuario?
 botão cadastro e login
 modal em cada event?
+
+
+modo dark

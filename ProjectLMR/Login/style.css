@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+    font-size: 20px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px 10px 0;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+    position: relative;
+}
+
+.nav a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.nav a:hover::after{
+    width: 100%;
+}
+
+.box{
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 450px;
+        height: 570px;
+        background:rgb(255, 255, 255);
+        border-radius: 20px;
+        padding: 20px;
+        border-color: rgb(255, 255, 255);
+        box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
+
+.box img{
+    width: 150px;
+    height: 150px;
+    border-radius: 60px;
+    margin-left: 130px;
+}
+
+.box h1{
+    margin-left: 125px;
+}
