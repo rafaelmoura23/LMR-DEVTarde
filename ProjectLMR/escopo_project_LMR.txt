@@ -14,3 +14,6 @@ modal em cada event?
 
 
 modo dark
+pegar foto e colocar no canto direito superior
+pegar foto do evento e colocar na sequência dos outros
+menu hamburguer
