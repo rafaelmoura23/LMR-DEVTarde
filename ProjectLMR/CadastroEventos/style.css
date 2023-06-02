@@ -100,10 +100,6 @@ body{
     width: 100%;
 }
 
-
-
-
-
 @keyframes float {
     0%{
         transform: translateY(0px);
@@ -114,4 +110,19 @@ body{
     100%{
         transform: translateY(0px);
     }
+}
+
+footer {
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+hr{
+    color: white;
+}
+
+p{
+    font-size: 19px;
 }
