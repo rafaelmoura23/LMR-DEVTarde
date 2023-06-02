@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
 
 body {
-    background-image: url(img/back1.png);
+    background-color:  black;
     font-family: 'Abel', sans-serif;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Share Tech Mono', monospace;
@@ -11,6 +11,11 @@ body {
 .carouselExampleDark {
     color: white;
     background-color: white;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
 }
 
 .nav a{
@@ -48,10 +53,8 @@ body {
     border-radius: 40px;
     padding: 10px;
     border-color: rgb(255, 255, 255);
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
     color: white;
     display: flex;
-    justify-content: NONE;
     align-items:center;
 }
 
@@ -84,7 +87,17 @@ body {
     cursor: pointer;
     color: rgb(255, 255, 255);
     background-color:rgb(0, 0, 0);
+    transition: 0.2s ease-in-out;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
 }
+
+#btnKnow:hover::after{
+    width: 100%;
+}
+
 
 @keyframes float {
     0%{
@@ -98,20 +111,18 @@ body {
     }
 }
 
-
 .carousel-inner {
-    box-shadow: 10px 10px 10px rgb(15, 15, 15);
     display: flex;
     align-items: center;
     color: white;
     width: 1400px;
-    height: 700px;
+    height: 600px;
     border-radius: 20px;
 }
 
 .carousel-inner img {
     width: 1400px;
-    height: 700px;
+    height: 600px;
     border: 2px;
     border-radius: 20px;
 }
@@ -138,7 +149,6 @@ body {
     border-color: rgb(242, 242, 242);
     border: 3px;
     border-style: solid;
-    box-shadow: 10px 10px 10px rgb(15, 15, 15);
 }
 
 h3 {
