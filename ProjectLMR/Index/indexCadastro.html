@@ -61,17 +61,17 @@
     <hr>
     <form action="" id="meuForm">
         <div class="mb-3">
-            <label for="formGroupExampleInput" class="form-label">Nome do Palestrante</label>
+            <label for="pNome" class="form-label">Nome do Palestrante</label>
             <input type="text" class="form-control" id="pNome" placeholder="">
           </div>
         
           <div class="mb-3">
-            <label for="formGroupExampleInput" class="form-label">Nome do Evento</label>
+            <label for="pEvento" class="form-label">Nome do Evento</label>
             <input type="text" class="form-control" id="pEvento" placeholder="">
           </div>
          
           <div class="mb-3">
-            <label for="" class="form-label">Número de Participantes</label>
+            <label for="pParticipantes" class="form-label">Número de Participantes</label>
             <input type="number" class="form-control" id="pParticipantes" placeholder="">
           </div>
         
@@ -82,20 +82,30 @@
             <option value="">03/06/2023</option>
             <option value="">10/06/2023</option>
         </select>
-        <br>
-        <input type="button" class="btn" value="CADASTRAR" onclick="evento()">
-        <button class="btn btn-primary" onclick="mudarConteudo()">Adicionar</button>
- <br>
+
+        <div class="mb-3">
+          <label for="fAvatar">Choose a profile picture:</label>
+          <input type="file" id="fAvatar" onchange="previewFile()" name="fAvatar" accept="image/png, image/jpeg">
+          <img src="" height="200" alt="Prévia da imagem...">
+      </div>
     </form>
+    <br>
+        <input type="button" class="btn" value="CADASTRAR" onclick="evento()">
+        <button class="btn btn-primary" onclick="mudarConteudo()" >Adicionar</button>
+ <br>
+
 </div>
 </div>
 </div>
 </section>
 
-
 <div class="program">
   <img src="img/nasa_logo2.jpg" class="img-fluid" alt="">
 </div>
+
+<div class="row mb-3" id="paragrafo"></div>
+    </div>
+
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
