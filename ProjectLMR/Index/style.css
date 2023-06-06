@@ -182,8 +182,65 @@ p{
     font-size: 19px;
 }
 
+
+
+
 .geralCards{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition: filter, transform 0.2s;
 }
+
+.card1{
+    transition: filter, transform 0.2s;
+}
+.card2{
+    transition: filter, transform 0.2s; 
+}
+.card3{
+    transition: filter, transform 0.2s; 
+}
+.card4{
+    transition: filter, transform 0.2s; 
+}
+.card5{
+    transition: filter, transform 0.2s; 
+}
+.card6{
+    transition: filter, transform 0.2s; 
+}
+.card7{
+    transition: filter, transform 0.2s; 
+}
+
+.card1:hover {
+    filter: blur(0.3px);
+    transform: scale(1.1);
+}
+.card2:hover{
+    filter:blur(0.3px);
+    transform: scale(1.1);
+}
+.card3:hover{
+    filter:blur(0.3px);
+    transform: scale(1.1);
+}
+.card4:hover{
+    filter:blur(0.3px);
+    transform: scale(1.1);
+}
+.card5:hover{
+    filter:blur(0.3px);
+    transform: scale(1.1);
+}
+.card6:hover{
+    filter:blur(0.3px);
+    transform: scale(1.1);
+}
+.card7:hover{
+    filter:blur(0.3px);
+    transform: scale(1.1);
+}
+
+
