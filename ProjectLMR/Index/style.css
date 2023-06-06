@@ -182,3 +182,8 @@ p{
     font-size: 19px;
 }
 
+.geralCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
