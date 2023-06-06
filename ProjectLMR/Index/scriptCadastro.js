@@ -14,7 +14,7 @@ function evento() {
         alert("Excedido o número máximo de Participantes(100)")
     } else {
         alert("Obrigado por se Inscrever!")
-        
+        window.location.href = "index.html";      
     }
 }
 
