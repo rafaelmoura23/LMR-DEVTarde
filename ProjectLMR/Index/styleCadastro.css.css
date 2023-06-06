@@ -6,7 +6,7 @@ body{
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Share Tech Mono', monospace;
     color: white;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .nav{
@@ -43,12 +43,12 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 450px;
-    height: 570px;
+    width: 470px;
+    height: 580px;
     background:rgb(42, 42, 42);
     border-radius: 20px;
     padding: 20px;
-    opacity: 87%;
+    opacity: 93%;
     border-color: rgb(255, 255, 255);
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
@@ -59,6 +59,7 @@ body{
     font-size: 50px;
     letter-spacing: 3px;
 }
+
 
 .box hr{
     padding-left: 50px;
@@ -104,17 +105,7 @@ body{
     }
 }
 
-footer {
-    text-decoration: none;
-    font-size: 18px;
-    position: relative;
-    margin-bottom: 0;
-}
 
 hr{
     color: white;
-}
-
-p{
-    font-size: 19px;
 }

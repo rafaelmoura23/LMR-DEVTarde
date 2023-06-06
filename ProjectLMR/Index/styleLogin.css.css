@@ -44,9 +44,9 @@ body{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 450px;
+        width: 470px;
         height: 580px;
-        background:rgb(255, 255, 255);
+        background:rgb(224, 224, 224);
         border-radius: 20px;
         padding: 20px;
         border-color: rgb(255, 255, 255);
@@ -109,3 +109,8 @@ body{
     margin-right: 300px;
   }
 
+  #exampleInputEmail1{
+    border-color: black;
+    border-style: solid;
+    border-radius: 9px;
+  }
