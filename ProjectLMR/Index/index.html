@@ -14,16 +14,21 @@
 <body>
 
   <header class="py-3 my-4"> <!-- header -->
-    <nav class="navbar bg-body-transparent">
+    <nav class="navbar navbar-expand-lg bg-body-transparent">
       <div class="container">
         <a class="navbar-brand" href="#"></a>
-          <a href=""><img src="img/Prisma_de_Newton-removebg-preview.png" alt="" width="200px" height="110px"class="navImagem"></a>
+          <a href="index.html"><img src="img/Prisma_de_Newton-removebg-preview.png" alt="" width="200px" height="110px"class="d-inline-block align-text-top"></a>
               
+          <button class="navbar-toggler" type="button  link-light" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 link-body-primary">
             <li><a href="" class="px-2 ">My Events</a></li>
             <li><a href="" class="px-2">Citys</a></li>
-            <li><a href="" class="px-2">SignUp</a></li>
-            <li><a href="" class="px-2">SignIn</a></li>
+            <li><a href="indexCadastro.html" class="px-2">SignUp</a></li>
+            <li><a href="indexLogin.html" class="px-2">SignIn</a></li>
           </ul>
 
           <form class="col-12 col-lg-auto mb-4 mb-lg-0 me-lg-4" role="search">
@@ -46,14 +51,15 @@
               <li><a class="dropdown-item" href="#">Sign out</a></li></a>
             </ul>
           </div>
+          </div>
       </div>
     </nav>
   </header>
 
   <section> <!-- Box Prism -->
-    <div class="container">
+    <div class="container mt-3">
       <div class="row">
-        <div class="col">
+        <div class="col-12">
           <div class="titleBox">
             <img src="img/Prisma_de_Newton-removebg-preview.png" alt="">
             <h1>PRISM <br> ASTRONOMIC <br> EVENTS</h1> <br>
