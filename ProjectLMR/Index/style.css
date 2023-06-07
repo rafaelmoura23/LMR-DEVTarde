@@ -2,10 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
 
 body {
-    background-color:  black;
+    background-color: black;
     font-family: 'Abel', sans-serif;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Share Tech Mono', monospace;  
+}
+
+body.dark{
+    background-color: white;
 }
 
 .carouselExampleDark {
@@ -242,4 +246,18 @@ p{
     transform: scale(1.1);
 }
 
+.icones{
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+}
 
+.icones img{
+    border-radius: 70px;
+}
+
+.redesSociais h5{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
