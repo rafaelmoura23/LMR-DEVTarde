@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Share+Tech+Mono&display=swap');
 
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     font-family: 'Abel', sans-serif;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Share Tech Mono', monospace;  
@@ -10,9 +10,8 @@ body {
 
 }
 
-body.light{
-    background-color: white;
-    color: black;
+body.dark{
+    background-color: #263538;
 }
 
 .checkbox{
