@@ -68,6 +68,8 @@ body.dark{
 
 
 
+
+
 .carouselExampleDark {
     color: white;
     background-color: white;
@@ -308,15 +310,22 @@ p{
     align-items:flex-end;
 }
 
-.icones img{
-    border-radius: 70px;
-}
-
 .redesSociais h5{
     display: flex;
     justify-content: center;
     color: white;
 }
 
-
+.fa-linkedin{
+    width: 50px;
+}
+.fa-facebook{
+    width: 50px;
+}
+.fa-instagram{
+    width: 50px;
+}
+.fa-youtube{
+    width: 50px;
+}
 
