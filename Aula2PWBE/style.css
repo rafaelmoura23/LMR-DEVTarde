@@ -4,6 +4,20 @@ body{
     font-family: cursive;
     }
 
-img{
+#menu img{
     border-radius: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carousel-inner img {
+    width: 800px;
+    height: 450px;
+    border: 2px;
+    border-radius: 20px;
 }
