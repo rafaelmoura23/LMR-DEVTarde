@@ -15,8 +15,7 @@ body{
     height: 70px;
 }
 
-
-footer{
+.footer{
     bottom: 0;
     position: absolute;
     width: 90%;
@@ -24,3 +23,4 @@ footer{
     margin-bottom: 0;
     margin-left: 5%;
 }
+
