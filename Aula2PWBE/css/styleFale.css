@@ -46,10 +46,16 @@ footer{
 #boxAdress{
     max-width: 480px;
     margin: 0 auto;
-    background-color: #dddddd;
+    background-color: #303030;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
     float: left;
     margin-left: 20px;
+    color: white;
+}
+
+#boxAdress .icones{
+    display: flex;
+    justify-content: space-evenly;
 }
