@@ -1,11 +1,22 @@
 body{
     background-color: aliceblue;
     color:black;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
+#menu{
+    font-size: 4vh;
+}
 #menu img{
     border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #carouselExampleFade{
@@ -15,10 +26,10 @@ body{
     border-radius: 20px;
     width: 1000px;
     height: 400px;
-    position: fixed;
+    position:absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
 }
 
 #carouselExampleFade img{
