@@ -1,0 +1,25 @@
+body{
+    background-image:url(img/walpaper2.jpg);
+    color:rgb(0, 0, 0);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+#menu{
+    font-size: 4vh;
+    color: white;
+}
+#menu img{
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+
+footer{
+    bottom: 0;
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 5%;
+}
