@@ -29,7 +29,7 @@ h1{
     border-radius: 20px;
     width: 1000px;
     height: 400px;
-    position:absolute;
+    position:fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -35%);
@@ -65,9 +65,3 @@ h1{
     }
 }
 
-.footer {
-    bottom: 0;
-    position: fixed;
-    width: 90%;
-    text-align: center;
-}

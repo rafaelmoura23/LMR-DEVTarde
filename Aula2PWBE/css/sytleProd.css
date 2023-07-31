@@ -15,10 +15,3 @@ body{
     height: 70px;
 }
 
-.footer {
-    bottom: 0;
-    position: fixed;
-    width: 90%;
-    text-align: center;
-}
-
