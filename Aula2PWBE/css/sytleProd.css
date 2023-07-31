@@ -1,7 +1,8 @@
 body{
-    background-color: aliceblue;
+    background-image:url(https://wallpaperaccess.com/full/3513676.jpg);
     color:rgb(0, 0, 0);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-attachment:fixed;
     }
 
 #menu{
