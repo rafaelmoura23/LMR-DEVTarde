@@ -1,5 +1,5 @@
 body{
-    background-image:url(img/walpaper2.jpg);
+    background-image:url();
     color:rgb(0, 0, 0);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
@@ -8,6 +8,7 @@ body{
     font-size: 4vh;
     color: white;
 }
+
 #menu img{
     border-radius: 10px;
     width: 70px;
